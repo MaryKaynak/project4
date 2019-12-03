@@ -11,6 +11,7 @@ public class TestVehicle {
     public void GIVEN_CAR_WHEN_PASSENGER_COUNT_8_AND_SPEED_100_THEN_FEE_750() {
         Car car = new Car("Toyota", "Red", 8, 100);
         Assert.assertEquals(750, car.additionalFineForCrowd());
+
     }
 
     @Test
